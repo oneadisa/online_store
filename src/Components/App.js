@@ -1,27 +1,10 @@
-import React from "react";
-import {Container, Row, Col, Card, Form, Button } from "react-bootstrap";
-import  {withRouter}  from "react-router";
-import Sidebar from "/Users/abdulazeezibrahim/Desktop/WEB DEV./React/my-app/src/Components/Sidebar.js";
-import './style/Dashboard.css'
+import React from 'react';
+import ReactBootstrap from 'react-bootstrap';
 
-const Dash = props => {
-   
+function App(){
+return(
+    <h1 className='container'>Hello World</h1>
+)
+}
 
-    return (
-        <>
-         <Container fluid>
-                <Row>
-                    <Col xs={2} id="sidebar-wrapper">      
-                      <Sidebar />
-                    </Col>
-                    <Col  xs={10} id="page-content-wrapper">
-                        this is a test
-                    </Col> 
-                </Row>
-
-            </Container>
-        </>
-        );
-  };
-  const Dashboard = withRouter(Dash);
-  export default Dashboard
+export default App;
