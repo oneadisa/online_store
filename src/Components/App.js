@@ -9,7 +9,8 @@ import Navbars from './Navbar';
 function App(){
 return(
     <><h1>My Website</h1><ProSidebars />
-    <Navbars/></>
+    <Navbars/>
+    <p> this is an online store containing all of your favourite products.</p></>
 
 )
 }
