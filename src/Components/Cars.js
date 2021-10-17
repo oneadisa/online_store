@@ -1,8 +1,8 @@
 import React from 'react';
 
 function Card(props) {
-    return(
-
+    return (
+        <h1>Hello!</h1>
     )
 }
 
